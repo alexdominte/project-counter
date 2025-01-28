@@ -4,9 +4,8 @@
 
 This project is a simple yet elegant **counter application** built using HTML, CSS, and vanilla JavaScript, adhering to the specified requirements. The counter application allows users to increment, decrement, and reset a numerical counter displayed on the screen. The design features a visually pleasing gradient background and responsive button styles that enhance user interactivity.
 
-## Live Demo
-
-Click here to view the live deployment of the Counter Application.
+### Live Demo  
+[Click here to view the live deployment of the Counter Application.](https://alex-counter-project.netlify.app/)
 
 ## Requirements Fulfilled
 
@@ -60,9 +59,7 @@ Project Root
   - Distinct colors for the reset button for better visual differentiation.
 
 ## Preview
-
-\
-![counter-app-screen](https://github.com/user-attachments/assets/36e5ccb0-15d2-4050-a76b-97bf243da8c9)
+![counter-app-screen](https://github.com/user-attachments/assets/cd6e7d32-71dc-4e5b-ac02-26cb62276f38)
 
 
 ## Author
