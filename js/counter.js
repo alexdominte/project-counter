@@ -2,12 +2,12 @@
 let counterValue = document.createElement('div');
 counterValue.textContent = '0';
 document.body.appendChild(counterValue);
-counterValue.setAttribute('class', 'counterValue');
+counterValue.setAttribute('class', 'counter-value');
 
 // Create button placement container
 let buttonsPlacement = document.createElement('div');
 document.body.appendChild(buttonsPlacement);
-buttonsPlacement.setAttribute('class', 'buttonsPosition');
+buttonsPlacement.setAttribute('class', 'buttons-position');
 
 // Create minus button
 let minusButton = document.createElement('button');
