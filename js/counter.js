@@ -1,6 +1,6 @@
 // Create counter display
 let counterValue = document.createElement('div');
-counterValue.textContent = '0';
+counterValue.textContent = localStorage.getItem('counterValueNumber') || "0";
 document.body.appendChild(counterValue);
 counterValue.setAttribute('class', 'counter-value');
 
@@ -36,22 +36,25 @@ resetButton.setAttribute('class', 'reset-button');
 resetButton.setAttribute('onclick', 'resetValue()');
 
 // Create a variable to keep track of the counter value
-let counterValueNumber = 0;
+let counterValueNumber = localStorage.getItem('counterValueNumber') || 0;
 
 // Increse counter function
 function increseValue() {
   counterValueNumber++;
   counterValue.innerHTML = counterValueNumber;
+  localStorage.setItem('counterValueNumber', counterValueNumber);
 }
 
 // Decrese counter function
 function decreseValue() {
   counterValueNumber--;
   counterValue.innerHTML = counterValueNumber;
+  localStorage.setItem('counterValueNumber', counterValueNumber);
 }
 
 // Reset counter function
 function resetValue() {
   counterValueNumber = 0;
   counterValue.innerHTML = counterValueNumber;
+  localStorage.setItem('counterValueNumber', counterValueNumber);
 }
